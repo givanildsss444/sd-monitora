@@ -146,62 +146,62 @@ export default function Home() {
 
           {/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
 
-          <section id="features" className="w-full py-12 md:py-24 lg:py-32">
-            <div className="container mx-auto px-4 md:px-6">
+          <section id="features" className="w-full py-12 md:py-24 lg:py-32 bg-white">
+            <div className="container mx-auto px-4 md:px-6 ">
               <div className="flex flex-col items-center justify-center space-y-2 text-center">
-                <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm font-semibold text-primary">Diferenciais</div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Por que o SD Monitora é a escolha de quem leva a obesidade a sério.</h2>
-                <p className="max-w-3xl text-foreground/80 md:text-xl/relaxed">Mais do que uma plataforma de lembretes, o SD Monitora entrega acompanhamento contínuo, dados objetivos e engajamento real, com tecnologia feita por médicos para médicos.</p>
+                <div className="inline-block rounded-lg bg-[#EBF9FE] px-3 py-1 text-sm font-semibold text-[#40CDFB]">Diferenciais</div>
+                <h2 className="text-3xl text-black font-bold tracking-tighter sm:text-4xl">Por que o SD Monitora é a escolha de quem leva a obesidade a sério.</h2>
+                <p className="max-w-3xl text-black md:text-xl/relaxed">Mais do que uma plataforma de lembretes, o SD Monitora entrega acompanhamento contínuo, dados objetivos e engajamento real, com tecnologia feita por médicos para médicos.</p>
               </div>
 
               <div className="mt-12 flex flex-col items-center space-y-12">
                 <div className="grid lg:grid-cols-3">
-                  <div className="space-y-4 p-6 bg-primary/10">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-circle-check-big size-7 text-primary"><path d="M21.801 10A10 10 0 1 1 17 3.335" /><path d="m9 11 3 3L22 4" /></svg>
-                    <h3 className="text-xl font-semibold">Integração real com WhatsApp</h3>
-                    <p className="text-foreground/80">Seus pacientes não precisam baixar app, criar login ou aprender a usar um sistema novo. O acompanhamento acontece diretamente no canal que eles mais usam.</p>
+                  <div className="space-y-4 p-6 bg-[#EDF9FF]">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-circle-check-big size-7 text-[#40CDFB]"><path d="M21.801 10A10 10 0 1 1 17 3.335" /><path d="m9 11 3 3L22 4" /></svg>
+                    <h3 className="text-xl text-black font-semibold">Integração real com WhatsApp</h3>
+                    <p className="text-black">Seus pacientes não precisam baixar app, criar login ou aprender a usar um sistema novo. O acompanhamento acontece diretamente no canal que eles mais usam.</p>
                   </div>
 
                   <div className="space-y-4 p-6">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-circle-check-big size-7 text-primary"><path d="M21.801 10A10 10 0 1 1 17 3.335" /><path d="m9 11 3 3L22 4" /></svg>
-                    <h3 className="text-xl font-semibold">Integração real com WhatsApp</h3>
-                    <p className="text-foreground/80">Seus pacientes não precisam baixar app, criar login ou aprender a usar um sistema novo. O acompanhamento acontece diretamente no canal que eles mais usam.</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-circle-check-big size-7 text-[#40CDFB]"><path d="M21.801 10A10 10 0 1 1 17 3.335" /><path d="m9 11 3 3L22 4" /></svg>
+                    <h3 className="text-xl text-black font-semibold">Integração real com WhatsApp</h3>
+                    <p className="text-black">Seus pacientes não precisam baixar app, criar login ou aprender a usar um sistema novo. O acompanhamento acontece diretamente no canal que eles mais usam.</p>
                   </div>
 
-                  <div className="space-y-4 p-6 bg-primary/10">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-circle-check-big size-7 text-primary"><path d="M21.801 10A10 10 0 1 1 17 3.335" /><path d="m9 11 3 3L22 4" /></svg>
-                    <h3 className="text-xl font-semibold">Integração real com WhatsApp</h3>
-                    <p className="text-foreground/80">Seus pacientes não precisam baixar app, criar login ou aprender a usar um sistema novo. O acompanhamento acontece diretamente no canal que eles mais usam.</p>
-                  </div>
-
-                  <div className="space-y-4 p-6">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-circle-check-big size-7 text-primary"><path d="M21.801 10A10 10 0 1 1 17 3.335" /><path d="m9 11 3 3L22 4" /></svg>
-                    <h3 className="text-xl font-semibold">Integração real com WhatsApp</h3>
-                    <p className="text-foreground/80">Seus pacientes não precisam baixar app, criar login ou aprender a usar um sistema novo. O acompanhamento acontece diretamente no canal que eles mais usam.</p>
-                  </div>
-
-                  <div className="space-y-4 p-6 bg-primary/10">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-circle-check-big size-7 text-primary"><path d="M21.801 10A10 10 0 1 1 17 3.335" /><path d="m9 11 3 3L22 4" /></svg>
-                    <h3 className="text-xl font-semibold">Integração real com WhatsApp</h3>
-                    <p className="text-foreground/80">Seus pacientes não precisam baixar app, criar login ou aprender a usar um sistema novo. O acompanhamento acontece diretamente no canal que eles mais usam.</p>
+                  <div className="space-y-4 p-6 bg-[#EDF9FF]">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-circle-check-big size-7 text-[#40CDFB]"><path d="M21.801 10A10 10 0 1 1 17 3.335" /><path d="m9 11 3 3L22 4" /></svg>
+                    <h3 className="text-xl text-black font-semibold">Integração real com WhatsApp</h3>
+                    <p className="text-black">Seus pacientes não precisam baixar app, criar login ou aprender a usar um sistema novo. O acompanhamento acontece diretamente no canal que eles mais usam.</p>
                   </div>
 
                   <div className="space-y-4 p-6">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-circle-check-big size-7 text-primary"><path d="M21.801 10A10 10 0 1 1 17 3.335" /><path d="m9 11 3 3L22 4" /></svg>
-                    <h3 className="text-xl font-semibold">Integração real com WhatsApp</h3>
-                    <p className="text-foreground/80">Seus pacientes não precisam baixar app, criar login ou aprender a usar um sistema novo. O acompanhamento acontece diretamente no canal que eles mais usam.</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-circle-check-big size-7 text-[#40CDFB]"><path d="M21.801 10A10 10 0 1 1 17 3.335" /><path d="m9 11 3 3L22 4" /></svg>
+                    <h3 className="text-xl text-black font-semibold">Integração real com WhatsApp</h3>
+                    <p className="text-black">Seus pacientes não precisam baixar app, criar login ou aprender a usar um sistema novo. O acompanhamento acontece diretamente no canal que eles mais usam.</p>
                   </div>
 
-                  <div className="space-y-4 p-6 bg-primary/10 lg:col-start-2 lg:bg-transparent">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-circle-check-big size-7 text-primary"><path d="M21.801 10A10 10 0 1 1 17 3.335" /><path d="m9 11 3 3L22 4" /></svg>
-                    <h3 className="text-xl font-semibold">Integração real com WhatsApp</h3>
-                    <p className="text-foreground/80">Seus pacientes não precisam baixar app, criar login ou aprender a usar um sistema novo. O acompanhamento acontece diretamente no canal que eles mais usam.</p>
+                  <div className="space-y-4 p-6 bg-[#EDF9FF]">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-circle-check-big size-7 text-[#40CDFB]"><path d="M21.801 10A10 10 0 1 1 17 3.335" /><path d="m9 11 3 3L22 4" /></svg>
+                    <h3 className="text-xl text-black font-semibold">Integração real com WhatsApp</h3>
+                    <p className="text-black">Seus pacientes não precisam baixar app, criar login ou aprender a usar um sistema novo. O acompanhamento acontece diretamente no canal que eles mais usam.</p>
+                  </div>
+
+                  <div className="space-y-4 p-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-circle-check-big size-7 text-[#40CDFB]"><path d="M21.801 10A10 10 0 1 1 17 3.335" /><path d="m9 11 3 3L22 4" /></svg>
+                    <h3 className="text-xl text-black font-semibold">Integração real com WhatsApp</h3>
+                    <p className="text-black">Seus pacientes não precisam baixar app, criar login ou aprender a usar um sistema novo. O acompanhamento acontece diretamente no canal que eles mais usam.</p>
+                  </div>
+
+                  <div className="space-y-4 p-6 bg-[#EDF9FF] lg:col-start-2 lg:bg-transparent">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-circle-check-big size-7 text-[#40CDFB]"><path d="M21.801 10A10 10 0 1 1 17 3.335" /><path d="m9 11 3 3L22 4" /></svg>
+                    <h3 className="text-xl text-black font-semibold">Integração real com WhatsApp</h3>
+                    <p className="text-black">Seus pacientes não precisam baixar app, criar login ou aprender a usar um sistema novo. O acompanhamento acontece diretamente no canal que eles mais usam.</p>
                   </div>
                 </div>
 
 
                 <div className="pt-4">
-                  <a href="" className="relative inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-11 rounded-md px-8 text-lg bg-primary border border-transparent text-primary-foreground hover:bg-primary/90">Começar teste gratuito</a>
+                  <a href="" className="relative inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-11 rounded-md px-8 text-lg bg-[#40CDFB] border border-transparent text-white hover:bg-[#40CDFB]/50 mt-12"> Começar teste gratuito</a>
                 </div>
               </div>
             </div>
@@ -209,7 +209,95 @@ export default function Home() {
 
           {/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
 
-          <section></section>
+          <section id="how-it-works" className="w-full bg-[#D4F2FD] from-[#D4F2FD]/20 to-white py-12 md:py-24 lg:py-32">
+          
+            <div className="container mx-auto flex flex-col items-center px-4 md:px-6">
+              
+              <div className="flex flex-col items-center justify-center space-y-2 text-center">
+                <div className="inline-block rounded-lg bg-[#EBF9FE] px-3 py-1 text-sm font-semibold text-[#40CDFB]">Como Funciona</div>
+                <h2 className="text-3xl text-black font-bold tracking-tighter sm:text-4xl">Uma jornada completa para o sucesso do seu paciente com obesidade</h2>
+                <p className="max-w-3xl text-black md:text-xl/relaxed">O SD Monitora se integra ao seu plano de acompanhamento para manter o paciente engajado, focado e em evolução todos os dias, mesmo longe do consultório.</p>
+              </div>
+
+              <div className="mx-auto pt-12">
+
+                <div className="grid grid-cols-[auto,1fr] gap-x-1 md:grid-cols-[1fr,auto,1fr] md:gap-x-4">
+                  <div className="hidden flex-1 md:block"></div>
+
+                  <div className="relative after:absolute after:bottom-0 after:start-7 after:top-14 after:-translate-x-[0.5px] after:border-l-2 after:border-dashed after:border-primary/50 last:after:hidden md:after:start-8 md:after:top-16">
+                    <div className="relative z-10 flex size-14 items-center justify-center md:size-16">
+                      <div className="relative z-10 flex size-8 items-center justify-center rounded-full bg-[#40CDFB] text-lg font-semibold text-white md:size-10 md:text-xl">1</div>
+                    </div>
+                    ::after
+                  </div>
+
+                  <div className="mb-6 flex-1 space-y-3 rounded-lg bg-[#EBF9FE] bg-gradient-to-r from-[#EBF9FE] to-transparent p-4 text-left">
+                    <h3 className="text-xl text-black font-semibold">Primeira Consulta: Defina o plano e ative o monitoramento</h3>
+                    <p className="text-black">Você cadastra o paciente na plataforma e configura o plano: metas de peso, hábitos a serem monitorados e frequência dos registros.</p>
+                    <p className="italic text-black">Exemplo: “Perder 4kg em 8 semanas”, “Caminhar 3x por semana”, “Evitar açúcar à noite”.</p>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-[auto,1fr] gap-x-1 md:grid-cols-[1fr,auto,1fr] md:gap-x-4">
+                  <div className="order-3 mb-6 flex-1 space-y-3 rounded-lg bg-[#EBF9FE] bg-gradient-to-r from-[#EBF9FE] to-transparent p-4 md:order-1 md:bg-gradient-to-l md:text-right">
+                    <h3 className="text-xl text-black font-semibold">Monitoramento automático via WhatsApp</h3>
+                    <p className="text-black">O paciente recebe uma mensagem no WhatsApp para registrar o peso e responder às metas. Tudo com linguagem simples e frequência definida por você.</p>
+                    <p className="italic text-black">Você acompanha sem precisar cobrar ou enviar mensagens manuais.</p>
+                  </div>
+
+                  <div className="relative order-2 after:absolute after:bottom-0 after:start-7 after:top-14 after:-translate-x-[0.5px] after:border-l-2 after:border-dashed after:border-primary/50 last:after:hidden md:after:start-8 md:after:top-16">
+                    <div className="relative z-10 flex size-14 items-center justify-center md:size-16">
+                      <div className="relative z-10 flex size-8 items-center justify-center rounded-full bg-[#40CDFB] text-lg font-semibold text-white md:size-10 md:text-xl">2</div>
+                    </div>
+                    ::after
+                  </div>
+                    <div className="hidden flex-1 md:order-3 md:block"></div>
+                </div>
+
+                <div className="grid grid-cols-[auto,1fr] gap-x-1 md:grid-cols-[1fr,auto,1fr] md:gap-x-4">
+                  <div className="hidden flex-1 md:block"></div>
+
+                  <div className="relative after:absolute after:bottom-0 after:start-7 after:top-14 after:-translate-x-[0.5px] after:border-l-2 after:border-dashed after:border-primary/50 last:after:hidden md:after:start-8 md:after:top-16">
+                    <div className="relative z-10 flex size-14 items-center justify-center md:size-16">
+                      <div className="relative z-10 flex size-8 items-center justify-center rounded-full bg-[#40CDFB] text-lg font-semibold text-white md:size-10 md:text-xl">1</div>
+                    </div>
+                    ::after
+                  </div>
+
+                  <div className="mb-6 flex-1 space-y-3 rounded-lg bg-[#EBF9FE] bg-gradient-to-r from-[#EBF9FE] to-transparent p-4 text-left">
+                    <h3 className="text-xl text-black font-semibold">Primeira Consulta: Defina o plano e ative o monitoramento</h3>
+                    <p className="text-black">Você cadastra o paciente na plataforma e configura o plano: metas de peso, hábitos a serem monitorados e frequência dos registros.</p>
+                    <p className="italic text-black">Exemplo: “Perder 4kg em 8 semanas”, “Caminhar 3x por semana”, “Evitar açúcar à noite”.</p>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-[auto,1fr] gap-x-1 md:grid-cols-[1fr,auto,1fr] md:gap-x-4">
+                  <div className="order-3 mb-6 flex-1 space-y-3 rounded-lg bg-[#EBF9FE] bg-gradient-to-r from-[#EBF9FE] to-transparent p-4 md:order-1 md:bg-gradient-to-l md:text-right">
+                    <h3 className="text-xl text-black font-semibold">Monitoramento automático via WhatsApp</h3>
+                    <p className="text-black">O paciente recebe uma mensagem no WhatsApp para registrar o peso e responder às metas. Tudo com linguagem simples e frequência definida por você.</p>
+                    <p className="italic text-black">Você acompanha sem precisar cobrar ou enviar mensagens manuais.</p>
+                  </div>
+                  
+                  <div className="relative order-2 after:absolute after:bottom-0 after:start-7 after:top-14 after:-translate-x-[0.5px] after:border-l-2 after:border-dashed after:border-primary/50 last:after:hidden md:after:start-8 md:after:top-16">
+                    <div className="relative z-10 flex size-14 items-center justify-center md:size-16">
+                      <div className="relative z-10 flex size-8 items-center justify-center rounded-full bg-[#40CDFB] text-lg font-semibold text-white md:size-10 md:text-xl">2</div>
+                    </div>
+                    ::after
+                  </div>
+                    <div className="hidden flex-1 md:order-3 md:block"></div>
+                </div>
+
+
+
+              </div>
+
+
+              <a href=""></a>
+
+            </div>
+          
+          
+          </section>
 
 
         </div>
