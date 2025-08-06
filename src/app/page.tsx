@@ -820,7 +820,7 @@ export default function Home() {
 
           <section id="contact" className="relative w-full overflow-hidden py-12 md:py-24 lg:py-32 bg-white">
             
-            <div className="absolute bottom-0 left-1/2 z-0 -translate-x-1/2 transform">
+            <div className="absolute left-1/2 top-0 z-0 -translate-x-1/2 transform">
                 <svg viewBox="0 0 959 454" className="w-[1000px] bg-[#DBF5FF] rotate-12 fill-[#DBF5F] blur-3xl"><path d="M893.499 20.6108C981.675 72.0768 976.157 235.045 897.35 323.727C818.543 412.41 665.883 425.5 546.664 438.892C428.199 451.737 342.484 464.813 234.275 438.76C126.066 412.708 -5.45475 348.692 0.802652 287.54C6.99684 227.005 150.279 169.262 246.36 136.65C342.379 104.656 391.26 97.1741 506.98 63.4508C622.701 29.7274 804.634 -30.9259 893.499 20.6108Z" fill="#DBF5FF"></path></svg>
             </div>
 
@@ -903,7 +903,9 @@ export default function Home() {
                 </div>
 
               </div>
+
             </div>
+
           </section>
 
         </div>
