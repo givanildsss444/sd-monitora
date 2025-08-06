@@ -822,6 +822,7 @@ export default function Home() {
             </div>
 
             <div className="container relative mx-auto px-4 md:grid-cols-2 md:px-6">
+
               <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-16 lg:grid-cols-2">
                 <div>
                   <div className="space-y-2 text-center lg:text-left">
@@ -867,7 +868,37 @@ export default function Home() {
 
                 </div>
 
-                <div></div>
+                <div className="flex flex-col gap-4 rounded-xl border bg-card text-card-foreground md:gap-6 md:py-6 border-none p-6 shadow-lg">
+                  <form className="space-y-6">
+                    <div className="space-y-4">
+
+                      <div className="space-y-2">
+                        <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Nome</label>
+                        <input className="flex h-10 w-full rounded-md border border-input bg-background px-4 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 focus:data-[invalid=true]:border-input" placeholder="Digite seu nome" id=":r1:-form-item" aria-describedby=":r1:-form-item-description" aria-invalid="false" data-invalid="false" />
+                      </div>
+
+                      <div className="space-y-2">
+                        <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Nome</label>
+                        <input className="flex h-10 w-full rounded-md border border-input bg-background px-4 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 focus:data-[invalid=true]:border-input" placeholder="Digite seu nome" id=":r1:-form-item" aria-describedby=":r1:-form-item-description" aria-invalid="false" data-invalid="false" />
+                      </div>
+
+                      <div className="space-y-2">
+                        <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Nome</label>
+                        <input className="flex h-10 w-full rounded-md border border-input bg-background px-4 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 focus:data-[invalid=true]:border-input" placeholder="Digite seu nome" id=":r1:-form-item" aria-describedby=":r1:-form-item-description" aria-invalid="false" data-invalid="false" />
+                      </div>
+
+                      <div className="space-y-2">
+                        <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Mensagem (opcional)</label>
+                        <textarea className="flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 focus:data-[invalid=true]:border-input" placeholder="Como podemos ajudar?" id=":r4:-form-item" aria-describedby=":r4:-form-item-description" aria-invalid="false" data-invalid="false"></textarea>
+                      </div>
+
+                    </div>
+
+                    <button className="relative inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-10 px-4 py-2 bg-primary border border-transparent text-primary-foreground hover:bg-primary/90 w-full" type="submit">Enviar mensagem</button>
+
+                  </form>
+                </div>
+
               </div>
             </div>
           </section>
