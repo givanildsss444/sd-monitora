@@ -762,11 +762,11 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="mt-6 flex items-center gap-3 rounded-lg border border-green-200 bg-gradient-to-r from-green-50 to-blue-50 p-3 dark:border-green-900 dark:from-green-950 dark:to-blue-950 md:p-4">
+                <div className="mt-6 flex items-center gap-3 rounded-lg border border-green-200 bg-gradient-to-r from-green-50 to-blue-50 p-3 dark:border-green-200 dark:from-[#F1FDF4] dark:to-[#EFF6FE] md:p-4">
                   <div className="text-2xl">🎁</div>
                   <div>
-                    <h4 className="font-semibold text-green-800 dark:text-green-300">Benefício Incluído</h4>
-                    <div className="space-y-1 text-sm text-green-700 dark:text-green-400">
+                    <h4 className="font-semibold text-[#166434]">Benefício Incluído</h4>
+                    <div className="space-y-1 text-sm text-green-700">
                       <p>• 84 pacientes com 40% de desconto no primeiro mês</p>
                     </div>
                   </div>
@@ -775,18 +775,18 @@ export default function Home() {
 
                 <div className="grid gap-6 md:grid-cols-3">
 
-                  <div data-slot="card" className="flex flex-col gap-4 rounded-xl border bg-card py-4 text-card-foreground shadow-sm md:gap-6 md:py-6">
+                  <div data-slot="card" className="flex flex-col gap-4 rounded-xl border border-[#E4E7EB] bg-card py-4 text-black shadow-sm md:gap-6 md:py-6">
                     <div data-slot="card-content" className="px-4 md:px-6">
                       <div className="flex items-center gap-2 text-sm md:text-base">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-dollar-sign size-4"><line x1="12" x2="12" y1="2" y2="22"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
                         Preço Original
                       </div>
-                      <div className="mt-2 text-xl font-bold md:text-2xl">R$&nbsp;177,00</div>
+                      <div className="mt-2 text-xlfont-bold md:text-2xl">R$&nbsp;177,00</div>
                       <p className="text-xs text-muted-foreground">R$&nbsp;59,00 por paciente</p>
                     </div>
                   </div>
 
-                  <div data-slot="card" className="flex flex-col gap-4 rounded-xl border bg-card py-4 text-card-foreground shadow-sm md:gap-6 md:py-6">
+                  <div data-slot="card" className="flex flex-col gap-4 rounded-xl border border-[#E4E7EB] bg-card py-4 text-black shadow-sm md:gap-6 md:py-6">
                     <div data-slot="card-content" className="px-4 md:px-6">
                       <div className="flex items-center gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-percent h-4 w-4"><line x1="19" x2="5" y1="5" y2="19"></line><circle cx="6.5" cy="6.5" r="2.5"></circle><circle cx="17.5" cy="17.5" r="2.5"></circle></svg>
@@ -797,7 +797,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div data-slot="card" className="flex flex-col gap-4 rounded-xl border bg-card py-4 text-card-foreground shadow-sm md:gap-6 md:py-6">
+                  <div data-slot="card" className="flex flex-col gap-4 rounded-xl border border-[#E4E7EB] bg-card py-4 text-black shadow-sm md:gap-6 md:py-6">
                     <div data-slot="card-content" className="px-4 md:px-6">
                       <div className="flex items-center gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-calculator h-4 w-4"><rect width="16" height="20" x="4" y="2" rx="2"></rect><line x1="8" x2="16" y1="6" y2="6"></line><line x1="16" x2="16" y1="14" y2="18"></line><path d="M16 10h.01"></path><path d="M12 10h.01"></path><path d="M8 10h.01"></path><path d="M12 14h.01"></path><path d="M8 14h.01"></path><path d="M12 18h.01"></path><path d="M8 18h.01"></path></svg>
@@ -809,6 +809,46 @@ export default function Home() {
                   </div>
 
                 </div>
+
+                <div className="space-y-4 text-black">
+
+                  <div>
+                    <h2 className="text-lg font-medium">Faixas de Desconto por Volume</h2>
+                    <p className="text-sm text-muted-foreground">Quanto mais pacientes você tiver, maior será o desconto aplicado</p>
+                  </div>
+
+                  <ul className="space-y-2">
+
+                    <li className="grid grid-cols-[1fr_auto] gap-x-4 rounded-md border p-4 md:grid-cols-[1fr_auto_auto] md:pl-5 border-green-500">
+                      <span className="flex-1 font-medium">1 a 10 pacientes</span>
+                      <span className="order-2 text-muted-foreground md:order-none">R$ 110,00 / paciente</span>
+                      <div className="row-span-2 flex items-center justify-center gap-2">
+                        <span className="font-semibold text-green-600">0% OFF</span>
+                        <div className="inline-flex items-center justify-center rounded-sm border px-2 py-0.5 font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-auto [a&]:hover:bg-accent [a&]:hover:text-accent-foreground border-green-500 bg-green-500 text-xs text-white dark:border-green-600 dark:bg-green-600">
+                          Ativo
+                        </div>
+                      </div>
+                    </li>
+
+                    <li className="grid grid-cols-[1fr_auto] gap-x-4 rounded-md border p-4 md:grid-cols-[1fr_auto_auto] md:pl-5 border-[#E4E7EB]">
+                      <span className="flex-1 font-medium">11 a 30 pacientes</span>
+                      <span className="order-2 text-muted-foreground md:order-none">R$ 99,00 / paciente</span>
+                      <div className="row-span-2 flex items-center justify-center gap-2">
+                        <span className="font-semibold text-green-600">0% OFF</span>
+                      </div>
+                    </li>
+
+                    <li className="grid grid-cols-[1fr_auto] gap-x-4 rounded-md border p-4 md:grid-cols-[1fr_auto_auto] md:pl-5 border-[#E4E7EB]">
+                      <span className="flex-1 font-medium">31 a ∞ pacientes</span>
+                      <span className="order-2 text-muted-foreground md:order-none">R$ 89,00 / paciente</span>
+                      <div className="row-span-2 flex items-center justify-center gap-2">
+                        <span className="font-semibold text-green-600">0% OFF</span>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>              
 
               </div>
             </div>
