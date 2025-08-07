@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import Header from "../../components/Header";
-import House from "../../components/House";
+import Start from "../../components/Start";
 import Benefits from "../../components/Benefits";
 
 export default function Home() {
@@ -10,13 +10,11 @@ export default function Home() {
     <div id="root">
       <div className="flex min-h-screen flex-col bg-background">
 
-
         <Header />
-
 
         <div className="flex-1">
 
-          <Home />
+          <Start />
 
           {/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
 

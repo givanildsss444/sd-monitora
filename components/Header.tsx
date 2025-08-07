@@ -7,11 +7,11 @@ export default function Header(){
         <header className="sticky top-0 z-50 border-b bg-[#fcfeff] backdrop-blur-sm">
 
           <div className="container mx-auto flex h-16 items-center justify-end gap-4 px-4">
-
+            
             <a href="/#home" className="mr-auto flex items-center gap-2">
               <Image src='/logo.png' alt="logo" width={200} height={200} className="" />
             </a>
-            
+
             <nav className="hidden gap-4 text-sm md:flex lg:gap-6 lg:text-base">
               <a href="/#benefits" className="text-[#7e8490] transition-colors hover:text-black"> Beneficios</a>
               <a href="/#how-it-works" className="text-[#7e8490] transition-colors hover:text-black">Como Funciona</a>
