@@ -4,7 +4,7 @@ export default function Testimonials(){
 
     return(
 
-        <section className="w-full bg-[#D2F2FE] py-12 md:py-24 lg:py-32">
+        <section className="w-full bg-[#D2F2FE] from-[#D2F2FE] to-white bg-gradient-to-bl py-12 md:py-24 lg:py-32">
                     {/*"w-full bg-[#D2F2FE] from-[#D2F2FE] to-white bg-gradient-to-bl py-12 md:py-24 lg:py-32" */}
                     <div className="container mx-auto flex flex-col items-center px-4 md:px-6">
         
@@ -57,8 +57,10 @@ export default function Testimonials(){
                             </div>
                           </div>
                         </div>
-        
+
+
                       </div>
+                        <a href="/login" className="relative inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-11 rounded-xl px-8 text-lg bg-[#40CDFB] border border-transparent text-white hover:bg-[#40CDFB]/50 mt-12">Faça como eles, comece agora</a>
                     </div>
         
                   </section>

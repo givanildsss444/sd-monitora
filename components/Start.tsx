@@ -22,7 +22,7 @@ export default function Start(){
 
                 <div className="flex flex-col items-center gap-4">
                   <span className="text-xl font-semibold text-black">Teste grátis por 30 dias e veja o impacto no engajamento dos seus pacientes.</span>
-                  <a href="" className="relative inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-11 rounded-xl px-8 text-lg border border-transparent text-primary-foreground bg-blue-500 hover:bg-blue-600">
+                  <a href="/login" className="relative inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-11 rounded-xl px-8 text-lg border border-transparent text-primary-foreground bg-blue-500 hover:bg-blue-600">
                     Começar teste gratuito
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-right size-4"><path d="M5 12h14" /><path d="M12 5l7 7-7 7" /></svg>
                   </a>
