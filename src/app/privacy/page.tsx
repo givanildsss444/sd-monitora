@@ -193,107 +193,78 @@ export default function Terms(){
                             Responsabilização e prestação de contas: a SD Monitora demonstrará a adoção de medidas eficazes para comprovar que observa e cumpre as normas de proteção de dados pessoais.
                             </p>
 
+                            <h2 className="text-2xl font-bold mb-4">
+                              4. QUAIS DADOS E INFORMAÇÕES TRATAMOS E PARA QUAL FINALIDADE?
+                            </h2>
 
+                            <p className="mb-4">
+                              Todos os seus dados coletados e/ou fornecidos por meio do nosso site, de outras interações ou diretamente a nós, estarão em conformidade com as legislações de proteção de dados e com este <strong>Aviso de Privacidade</strong>. Esses dados serão tratados como confidenciais e utilizados exclusivamente para os fins aqui descritos e/ou autorizados por você.
+                            </p>
 
+                            <p className="mb-6 font-semibold">
+                              Em nosso site e APP, tratamos os seguintes dados pessoais:
+                            </p>
 
-
-
-
-
-
-
-
-
-
-
-
-<h2 className="text-2xl font-bold mb-4">
-    4. QUAIS DADOS E INFORMAÇÕES TRATAMOS E PARA QUAL FINALIDADE?
-  </h2>
-
-  <p className="mb-4">
-    Todos os seus dados coletados e/ou fornecidos por meio do nosso site, de outras interações ou diretamente a nós, estarão em conformidade com as legislações de proteção de dados e com este <strong>Aviso de Privacidade</strong>. Esses dados serão tratados como confidenciais e utilizados exclusivamente para os fins aqui descritos e/ou autorizados por você.
-  </p>
-
-  <p className="mb-6 font-semibold">
-    Em nosso site e APP, tratamos os seguintes dados pessoais:
-  </p>
-
-  <div className="overflow-x-auto">
-    <table className="min-w-full border border-gray-300 text-sm text-left">
-      <thead className="bg-gray-100">
-        <tr>
-          <th className="border border-gray-300 px-4 py-3 font-medium">DADOS PESSOAIS TRATADOS</th>
-          <th className="border border-gray-300 px-4 py-3 font-medium">ONDE OS DADOS SÃO COLETADOS?</th>
-          <th className="border border-gray-300 px-4 py-3 font-medium">PARA QUAL FINALIDADE?</th>
-          <th className="border border-gray-300 px-4 py-3 font-medium">QUAL HIPÓTESE LEGAL JUSTIFICA O TRATAMENTO?</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr className="bg-white">
-          <td className="border border-gray-300 px-4 py-3">
-            <strong>Dados de cadastro:</strong><br />
-            [Nome completo, E-mail, Especialidade médica, Estado do CRM, CRM, CPF, Data de Nascimento, WhatsApp]
-          </td>
-          <td className="border border-gray-300 px-4 py-3">Site e aplicativo</td>
-          <td className="border border-gray-300 px-4 py-3">
-            Prestação de serviços da Saúde Digital e do Parceiro; Promoção das atividades da Saúde Digital e do Parceiro;
-            Aperfeiçoar o uso e experiência dos serviços da Saúde Digital; cumprir obrigações legais.
-          </td>
-          <td className="border border-gray-300 px-4 py-3">Execução de contrato</td>
-        </tr>
-        <tr className="bg-gray-50">
-          <td className="border border-gray-300 px-4 py-3">
-            <strong>Dados de Login:</strong><br />
-            [Telefone]
-          </td>
-          <td className="border border-gray-300 px-4 py-3">Site e aplicativo</td>
-          <td className="border border-gray-300 px-4 py-3">Cadastrar e monitorar pacientes da clínica</td>
-          <td className="border border-gray-300 px-4 py-3">Execução de contrato</td>
-        </tr>
-        <tr className="bg-white">
-          <td className="border border-gray-300 px-4 py-3">
-            <strong>Dados do Paciente:</strong><br />
-            [Nome completo, CPF, Data de Nascimento, E-mail, Número de telefone, Relatório médico]
-          </td>
-          <td className="border border-gray-300 px-4 py-3">Site e aplicativo</td>
-          <td className="border border-gray-300 px-4 py-3">Para que os médicos monitorem os pacientes</td>
-          <td className="border border-gray-300 px-4 py-3">Tutela da saúde</td>
-        </tr>
-        <tr className="bg-gray-50">
-          <td className="border border-gray-300 px-4 py-3">
-            <strong>Dados de Navegação:</strong><br />
-            <em>IP (Internet Protocol)</em>
-          </td>
-          <td className="border border-gray-300 px-4 py-3">
-            Através do uso do site por parte do usuário.
-          </td>
-          <td className="border border-gray-300 px-4 py-3">
-            Obediência ao artigo 15 da Lei n.º 12.965/2014, que impõe o dever da <strong>SD Monitora</strong> de manter
-            os respectivos registros de acesso a aplicações de internet, sob sigilo, em ambiente controlado e de segurança.
-          </td>
-          <td className="border border-gray-300 px-4 py-3">
-            Cumprimento de obrigação legal ou regulatória pelo controlador;
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                            <div className="overflow-x-auto">
+                              <table className="min-w-full border border-gray-300 text-sm text-left">
+                                <thead className="bg-gray-100">
+                                  <tr>
+                                    <th className="border border-gray-300 px-4 py-3 font-medium">DADOS PESSOAIS TRATADOS</th>
+                                    <th className="border border-gray-300 px-4 py-3 font-medium">ONDE OS DADOS SÃO COLETADOS?</th>
+                                    <th className="border border-gray-300 px-4 py-3 font-medium">PARA QUAL FINALIDADE?</th>
+                                    <th className="border border-gray-300 px-4 py-3 font-medium">QUAL HIPÓTESE LEGAL JUSTIFICA O TRATAMENTO?</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr className="bg-white">
+                                    <td className="border border-gray-300 px-4 py-3">
+                                      <strong>Dados de cadastro:</strong><br />
+                                      [Nome completo, E-mail, Especialidade médica, Estado do CRM, CRM, CPF, Data de Nascimento, WhatsApp]
+                                    </td>
+                                    <td className="border border-gray-300 px-4 py-3">Site e aplicativo</td>
+                                    <td className="border border-gray-300 px-4 py-3">
+                                      Prestação de serviços da Saúde Digital e do Parceiro; Promoção das atividades da Saúde Digital e do Parceiro;
+                                      Aperfeiçoar o uso e experiência dos serviços da Saúde Digital; cumprir obrigações legais.
+                                    </td>
+                                    <td className="border border-gray-300 px-4 py-3">Execução de contrato</td>
+                                  </tr>
+                                  <tr className="bg-gray-50">
+                                    <td className="border border-gray-300 px-4 py-3">
+                                      <strong>Dados de Login:</strong><br />
+                                      [Telefone]
+                                    </td>
+                                    <td className="border border-gray-300 px-4 py-3">Site e aplicativo</td>
+                                    <td className="border border-gray-300 px-4 py-3">Cadastrar e monitorar pacientes da clínica</td>
+                                    <td className="border border-gray-300 px-4 py-3">Execução de contrato</td>
+                                  </tr>
+                                  <tr className="bg-white">
+                                    <td className="border border-gray-300 px-4 py-3">
+                                      <strong>Dados do Paciente:</strong><br />
+                                      [Nome completo, CPF, Data de Nascimento, E-mail, Número de telefone, Relatório médico]
+                                    </td>
+                                    <td className="border border-gray-300 px-4 py-3">Site e aplicativo</td>
+                                    <td className="border border-gray-300 px-4 py-3">Para que os médicos monitorem os pacientes</td>
+                                    <td className="border border-gray-300 px-4 py-3">Tutela da saúde</td>
+                                  </tr>
+                                  <tr className="bg-gray-50">
+                                    <td className="border border-gray-300 px-4 py-3">
+                                      <strong>Dados de Navegação:</strong><br />
+                                      <em>IP (Internet Protocol)</em>
+                                    </td>
+                                    <td className="border border-gray-300 px-4 py-3">
+                                      Através do uso do site por parte do usuário.
+                                    </td>
+                                    <td className="border border-gray-300 px-4 py-3">
+                                      Obediência ao artigo 15 da Lei n.º 12.965/2014, que impõe o dever da <strong>SD Monitora</strong> de manter
+                                      os respectivos registros de acesso a aplicações de internet, sob sigilo, em ambiente controlado e de segurança.
+                                    </td>
+                                    <td className="border border-gray-300 px-4 py-3">
+                                      Cumprimento de obrigação legal ou regulatória pelo controlador;
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
 
                             <p className="mt-4">
                             5. DADOS PESSOAIS DE MENORES DE IDADE Coletamos conscientemente dados de menores de 18 anos exclusivamente para fins de análise médica. Caso você seja pai, mãe ou responsável legal por um menor e tomar conhecimento de que foram fornecidos dados pessoais divergentes daqueles autorizados pelos responsáveis ou os quais não deveríamos ter acesso, entre em contato conosco através do seguinte endereço de e-mail dpo@saudedigital.tech
