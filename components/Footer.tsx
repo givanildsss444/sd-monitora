@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer(){
 
@@ -40,11 +41,11 @@ export default function Footer(){
                   <ul className="space-y-2">
 
                     <li>
-                      <a href="" className="text-black/60 transition-colors hover:text-black">Termos de uso</a>
+                      <Link href="/terms" className="text-black/60 transition-colors hover:text-black">Termos de uso</Link>
                     </li>
 
                     <li>
-                      <a href="" className="text-black/60 transition-colors hover:text-black">Política de privacidade</a>
+                      <Link href="/privacy" className="text-black/60 transition-colors hover:text-black">Política de privacidade</Link>
                     </li>
 
                   </ul>
